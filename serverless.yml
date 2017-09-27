@@ -8,7 +8,7 @@ provider:
   region: us-east-1
   deploymentBucket: dimplekataria02
   iamRoleStatements:
-       - Effect: "Allow"
+       - Effect: "Aldynamodblow"
          Action:
            - "dynamodb:*"
          Resource: "arn:aws:dynamodb:us-east-1:090157620513:table/booksTable"
